@@ -1,5 +1,8 @@
+/* eslint-disable @next/next/no-page-custom-font */
+/* eslint-disable @next/next/no-sync-scripts */
 import '../styles/utilities.css';
 import '../styles/homepage.css';
+import '../styles/detail.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/dist/shared/lib/head';
 
