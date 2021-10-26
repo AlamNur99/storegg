@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Member() {
     return (
-        <>
         <section className="overview overflow-auto">
             <section className="sidebar">
                 <div className="content pt-50 pb-30 ps-30">
@@ -428,6 +427,5 @@ export default function Member() {
                 </div>
             </main>
         </section>
-        </>
     )
 }

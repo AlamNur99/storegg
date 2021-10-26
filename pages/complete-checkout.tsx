@@ -1,6 +1,5 @@
 export default function CompleteCheckout() {
     return (
-        <>
         <section className="complete-checkout mx-auto pt-lg-145 pb-lg-145 pt-100 pb-80">
         <div className="container-fluid">
             <div className="text-center">
@@ -136,6 +135,5 @@ export default function CompleteCheckout() {
             </div>
         </div>
     </section>
-        </>
     )
 }

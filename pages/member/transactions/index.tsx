@@ -2,8 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Transactions() {
     return (
-        <section className="transactions overflow-auto">
-        
+        <section className="transactions overflow-auto">        
         <main className="main-wrapper">
             <div className="ps-lg-0">
                 <h2 className="text-4xl fw-bold color-palette-1 mb-30">My Transactions</h2>
