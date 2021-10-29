@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 export default function Story() {
     return (
         <section className="story pt-50 pb-50">
