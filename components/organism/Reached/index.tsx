@@ -1,4 +1,4 @@
-import ReachItem from "../../molecules/ReachItem";
+import ReachItem from "./ReachItem"
 
 export default function Reached() {
     return (

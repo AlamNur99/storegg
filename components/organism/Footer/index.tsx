@@ -1,5 +1,5 @@
-import FooterItem from "../../molecules/FooterItem"
-import IllustrationFooter from "./IllustrationFooter"
+import FooterItem from "./FooterItem";
+import IllustrationFooter from "./IllustrationFooter";
 
 export default function Footer() {
     return (
