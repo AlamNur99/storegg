@@ -14,6 +14,7 @@
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "aos": "^2.3.4",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
@@ -29,6 +30,7 @@
     "@storybook/nextjs": "^7.0.18",
     "@storybook/react": "^7.0.18",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/aos": "^3.0.4",
     "eslint-plugin-storybook": "^0.6.12",
     "storybook": "^7.0.18"
   }
