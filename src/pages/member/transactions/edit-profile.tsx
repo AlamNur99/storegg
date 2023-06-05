@@ -40,13 +40,13 @@ export default function EditProfile() {
                 </div>
               </div>
               <div className="pt-30">
-                <Input label="Full Name" />
+                <Input label="Full Name" placeHolder="Enter Your Name" />
               </div>
               <div className="pt-30">
-                <Input label="Email Address" />
+                <Input label="Email Address" placeHolder="Enter Your Address" />
               </div>
               <div className="pt-30">
-                <Input label="Phone" />
+                <Input label="Phone" placeHolder="Enter Your Phone" />
               </div>
               <div className="button-group d-flex flex-column pt-50">
                 <button
