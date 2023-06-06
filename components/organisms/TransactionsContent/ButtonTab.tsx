@@ -1,4 +1,5 @@
 import cx from 'classnames';
+import Link from 'next/link';
 
 interface ButtonTabProps {
   title: string;
@@ -12,8 +13,8 @@ export default function ButtonTab(props: ButtonTabProps) {
     'btn-active': active,
   });
   return (
-    <a data-filter="*" href="#" className={buttonClass}>
+    <Link data-filter="*" href="#" className={buttonClass}>
       {title}
-    </a>
+    </Link>
   );
 }
