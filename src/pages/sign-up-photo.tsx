@@ -11,18 +11,40 @@ export default function SignUpPhoto() {
               <div className="mb-20">
                 <div className="image-upload text-center">
                   <label htmlFor="avatar">
-                    <Image src="/icon/upload.svg" width={120} height={120} alt="upload" />
+                    <Image
+                      src="/icon/upload.svg"
+                      width={120}
+                      height={120}
+                      alt="upload"
+                    />
                   </label>
-                  <input id="avatar" type="file" name="avatar" accept="image/png, image/jpeg" />
+                  <input
+                    id="avatar"
+                    type="file"
+                    name="avatar"
+                    accept="image/png, image/jpeg"
+                  />
                 </div>
               </div>
-              <h2 className="fw-bold text-xl text-center color-palette-1 m-0">Shayna Anne</h2>
-              <p className="text-lg text-center color-palette-1 m-0">shayna@anne.com</p>
+              <h2 className="fw-bold text-xl text-center color-palette-1 m-0">
+                Shayna Anne
+              </h2>
+              <p className="text-lg text-center color-palette-1 m-0">
+                shayna@anne.com
+              </p>
               <div className="pt-50 pb-50">
-                <label htmlFor="category" className="form-label text-lg fw-medium color-palette-1 mb-10">
+                <label
+                  htmlFor="category"
+                  className="form-label text-lg fw-medium color-palette-1 mb-10"
+                >
                   Favorite Game
                 </label>
-                <select id="category" name="category" className="form-select d-block w-100 rounded-pill text-lg" aria-label="Favorite Game">
+                <select
+                  id="category"
+                  name="category"
+                  className="form-select d-block w-100 rounded-pill text-lg"
+                  aria-label="Favorite Game"
+                >
                   <option value="" disabled selected>
                     Select Category
                   </option>
@@ -35,11 +57,19 @@ export default function SignUpPhoto() {
             </div>
 
             <div className="button-group d-flex flex-column mx-auto">
-              <Link className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16" href="/sign-up-success" role="button">
+              <Link
+                className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16"
+                href="/sign-up-success"
+                role="button"
+              >
                 Create My Account
               </Link>
 
-              <Link className="btn btn-tnc text-lg color-palette-1 text-decoration-underline pt-15" href="#" role="button">
+              <Link
+                className="btn btn-tnc text-lg color-palette-1 text-decoration-underline pt-15"
+                href="#"
+                role="button"
+              >
                 Terms & Conditions
               </Link>
             </div>

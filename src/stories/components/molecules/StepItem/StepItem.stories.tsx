@@ -5,7 +5,7 @@ import StepItem, {
 } from '../../../../../components/molecules/StepItem';
 
 export default {
-  title: 'Components/Atoms/StepItem',
+  title: 'Components/Molecules/StepItem',
   component: StepItem,
 } as Meta;
 

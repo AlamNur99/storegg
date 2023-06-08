@@ -5,7 +5,7 @@ import GameItem, {
 } from '../../../../../components/molecules/GameItem';
 
 export default {
-  title: 'Components/Atoms/GameItem',
+  title: 'Components/Molecules/GameItem',
   component: GameItem,
 } as Meta;
 
